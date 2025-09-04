@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d",
+    "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
+    "posted_date": "2025-08-15",
+    "reading_time": 360,
+    "hashtags": ["#react", "#frontend", "#javascript"]
+  },
+  {
+    "id": 2,
+    "cover": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "author_img": "https://randomuser.me/api/portraits/women/45.jpg",
+    "posted_date": "2025-07-20",
+    "reading_time": 420,
+    "hashtags": ["#uiux", "#design", "#webdev"]
+  },
+  {
+    "id": 3,
+    "cover": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "author_img": "https://randomuser.me/api/portraits/men/64.jpg",
+    "posted_date": "2025-06-12",
+    "reading_time": 300,
+    "hashtags": ["#nodejs", "#backend", "#api"]
+  },
+  {
+    "id": 4,
+    "cover": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    "author_img": "https://randomuser.me/api/portraits/women/28.jpg",
+    "posted_date": "2025-05-05",
+    "reading_time": 390,
+    "hashtags": ["#ai", "#machinelearning", "#datascience"]
+  },
+  {
+    "id": 5,
+    "cover": "https://images.unsplash.com/photo-1537432376769-00a5f1e5d2ec",
+    "author_img": "https://randomuser.me/api/portraits/men/12.jpg",
+    "posted_date": "2025-04-22",
+    "reading_time": 330,
+    "hashtags": ["#tailwindcss", "#css", "#responsive"]
+  }
+]
