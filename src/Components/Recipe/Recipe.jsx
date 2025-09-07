@@ -1,11 +1,15 @@
 import React from "react";
 
-const Recipe = ({recipe}) => {
+const Recipe = ({ recipe, addRecipeToQue }) => {
   return (
     <>
       <div className="card border-2 shadow-sm">
         <figure>
-          <img className="h-40 w-full rounded-lg" src={recipe.recipe_image} alt="Recipe Iamge" />
+          <img
+            className="h-40 w-full rounded-lg"
+            src={recipe.recipe_image}
+            alt="Recipe Iamge"
+          />
         </figure>
         <div className="card-body p-0 mt-4 space-y-2">
           <h2 className="card-title font-semibold">{recipe.recipe_name}</h2>
@@ -24,7 +28,12 @@ const Recipe = ({recipe}) => {
             </div>
           </div>
           <div className="card-actions">
-            <button className="btn !bg-green-500  ">Want To Cook</button>
+            <button
+              onClick={() => addRecipeToQue(recipe)}
+              className="btn !bg-green-500  "
+            >
+              Want To Cook
+            </button>
           </div>
         </div>
       </div>

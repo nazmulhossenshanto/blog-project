@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
 
-const Recipes = () => {
+const Recipes = ({addRecipeToQue}) => {
   const [recipes, setRecipes] = useState([]);
   useEffect(() => {
     fetch("./recipes.json")
@@ -15,6 +15,7 @@ const Recipes = () => {
           <Recipe
            key={recipe.recipe_id}
            recipe={recipe}
+           addRecipeToQue={addRecipeToQue}
           ></Recipe>
         ))}
       </div>
