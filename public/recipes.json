@@ -1,0 +1,56 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Chicken Biryani",
+    "recipe_image": "https://images.unsplash.com/photo-1604908812917-3a5f92d6c67e",
+    "short_description": "Aromatic basmati rice cooked with tender chicken and flavorful spices.",
+    "ingredients": ["Basmati rice", "Chicken", "Onion", "Garlic", "Ginger", "Spices", "Yogurt"],
+    "preparing_time": 60,
+    "calories": 720
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Pizza",
+    "recipe_image": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+    "short_description": "Crispy pizza base topped with cheese and fresh seasonal vegetables.",
+    "ingredients": ["Pizza dough", "Cheese", "Tomato sauce", "Bell peppers", "Onion", "Olives"],
+    "preparing_time": 30,
+    "calories": 450
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Beef Burger",
+    "recipe_image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+    "short_description": "Juicy beef patty served with lettuce, tomato, cheese and soft buns.",
+    "ingredients": ["Beef patty", "Burger bun", "Cheese", "Lettuce", "Tomato", "Onion"],
+    "preparing_time": 25,
+    "calories": 550
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Caesar Salad",
+    "recipe_image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9",
+    "short_description": "Healthy salad with romaine lettuce, croutons, parmesan and caesar dressing.",
+    "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+    "preparing_time": 15,
+    "calories": 200
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Pasta Alfredo",
+    "recipe_image": "https://images.unsplash.com/photo-1528731708534-816fe59f90cb",
+    "short_description": "Creamy Alfredo pasta with garlic, parmesan and fresh herbs.",
+    "ingredients": ["Pasta", "Butter", "Garlic", "Cream", "Parmesan cheese", "Parsley"],
+    "preparing_time": 35,
+    "calories": 600
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Chocolate Cake",
+    "recipe_image": "https://images.unsplash.com/photo-1601979031959-6c0c7a3b0c07",
+    "short_description": "Moist chocolate sponge cake topped with rich chocolate frosting.",
+    "ingredients": ["Flour", "Cocoa powder", "Sugar", "Eggs", "Butter", "Chocolate"],
+    "preparing_time": 70,
+    "calories": 430
+  }
+]

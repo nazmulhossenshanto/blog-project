@@ -1,14 +1,25 @@
 
 import './App.css'
-import Blogs from './Components/Blogs/Blogs'
+import Recipes from './Components/Recipes/Recipes'
+import Sidebar from './Components/Sidebar/Sidebar'
 
 function App() {
 
   return (
     <>
       
-      <h1 className='text-2xl text-blue-500'>Vite + React</h1>
-      <Blogs></Blogs>
+     <div className='border-2'>
+
+       <h1 className='text-2xl text-blue-500'>Our Recipes</h1>
+      <div className='flex flex-col md:flex-row gap-4'>
+      {/* Recipes section */}
+      <Recipes></Recipes>
+      {/* Sidebar Section */}
+      <Sidebar></Sidebar>
+      </div>
+
+     </div>
+      
     </>
   )
 }
